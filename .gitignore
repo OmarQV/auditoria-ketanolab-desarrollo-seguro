@@ -1,0 +1,39 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales de Office (se crean al abrir un Word/Excel)
+~$*
+*.tmp
+
+# Configuración local de Obsidian y editores
+.obsidian/workspace*.json
+.obsidian/cache
+.vscode/
+.idea/
+
+# Secretos: nunca deben subirse
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*credenciales*
+*contraseñas*
+*passwords*
+
+# Archivos pesados: van al Drive del equipo
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.m4a
+*.wav
+*.zip
+*.rar
+*.7z
